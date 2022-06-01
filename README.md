@@ -1,6 +1,6 @@
 # Flexbox layout website
 
-Made this landing page using flexible box module aka FLEXBOX. This can be considered as a template layout for nearly every product that you might be selling.
+Made this landing page using flexible box module aka FLEXBOX. This can be considered as a template layout for nearly any product that you might be selling.
 
 ## Languages
 - HTML5
