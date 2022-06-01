@@ -7,6 +7,8 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -75,4 +77,64 @@ button{
     border-radius: 10px;
     padding: 10px 30px;
     margin-top: 0.5rem;
+}
+
+.info{
+    padding-bottom: 90px;
+}
+.info_heading{
+    text-align: center;
+    font-weight: 900;
+}
+
+.info_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card{
+    width: 200px;
+    text-align: center;
+}
+
+.info_img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6; 
+    border-radius: 16px;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial > div{
+    max-width: 900px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 50px 0px;
+}
+
+figcaption{
+    text-align: right;
+    font-weight: 900;
+}
+footer{
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    flex: 1;
 }
