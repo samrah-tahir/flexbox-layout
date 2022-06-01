@@ -1,7 +1,8 @@
 # Flexbox layout website
 
-This website is a website I built to test my flexbox skills. I have made this website entirely using just flexbox. Additionally, these are the technologies used.
+Made this landing page using flexible box module aka FLEXBOX. This can be considered as a template layout for nearly every product that you might be selling.
 
+## Languages
 - HTML5
 - CSS3 with Flexbox
 
