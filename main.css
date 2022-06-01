@@ -149,6 +149,9 @@ figcaption{
 .call-to-action-btn-box{
     padding-right: 70px;
     padding-left: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .call-to-action_text{
     color: white;
