@@ -126,6 +126,43 @@ figcaption{
     text-align: right;
     font-weight: 900;
 }
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action > div{
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px 80px;
+    border-radius: 8px;
+    margin: 48px 0px;
+}
+
+.call-to-action-box{
+    padding: 5px 50px 5px 70px;
+
+}
+
+.call-to-action-btn-box{
+    padding-right: 70px;
+    padding-left: 10px; 
+}
+.call-to-action_text{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.call-to-action_text + p{
+    color: white;
+}
+
+.call-to-action_btn{
+    border: 2px solid white;
+}
 footer{
     font-size: 18px;
     color: #E5E7EB;
@@ -133,6 +170,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100px;
 }
 
 .content{
